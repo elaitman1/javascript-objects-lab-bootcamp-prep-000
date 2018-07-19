@@ -9,4 +9,6 @@ var object2 = Object.assign({},object);
 object2[key] = value;
 return object2;
 }
-destructivelyUpdateObjectWithKeyAndValue()
+destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+  object[key] = value;
+}
